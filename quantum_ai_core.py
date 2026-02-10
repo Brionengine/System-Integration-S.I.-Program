@@ -24,7 +24,7 @@ class QuantumAICore:
     - Adaptive resource allocation
     """
 
-    VERSION = "2.0.0"
+    VERSION = "2.0.6"
 
     def __init__(self, config: Optional[Dict[str, Any]] = None):
         self.config = config or {}

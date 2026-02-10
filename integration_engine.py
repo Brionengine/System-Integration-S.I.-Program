@@ -22,7 +22,7 @@ class IntegrationEngine:
     - Data pipelines and storage
     """
 
-    VERSION = "2.0.0"
+    VERSION = "2.0.6"
 
     def __init__(self):
         self.registered_services: Dict[str, Dict[str, Any]] = {}

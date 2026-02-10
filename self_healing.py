@@ -22,7 +22,7 @@ class SelfHealing:
     - Configuration drift
     """
 
-    VERSION = "2.0.0"
+    VERSION = "2.0.6"
 
     def __init__(self, check_interval: float = 5.0):
         self.check_interval = check_interval
